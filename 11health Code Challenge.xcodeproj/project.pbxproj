@@ -15,6 +15,8 @@
 		DA85BA8524A46F9C00A408DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA85BA8324A46F9C00A408DF /* LaunchScreen.storyboard */; };
 		DA85BA9024A46F9D00A408DF /* _1health_Code_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA85BA8F24A46F9D00A408DF /* _1health_Code_ChallengeTests.swift */; };
 		DA85BA9B24A46F9D00A408DF /* _1health_Code_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA85BA9A24A46F9D00A408DF /* _1health_Code_ChallengeUITests.swift */; };
+		DA85BAA924A4704700A408DF /* ServiceSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA85BAA824A4704700A408DF /* ServiceSingleton.swift */; };
+		DA85BAAC24A4735400A408DF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA85BAAB24A4735400A408DF /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DA85BA9624A46F9D00A408DF /* 11health Code ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "11health Code ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA85BA9A24A46F9D00A408DF /* _1health_Code_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1health_Code_ChallengeUITests.swift; sourceTree = "<group>"; };
 		DA85BA9C24A46F9D00A408DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA85BAA824A4704700A408DF /* ServiceSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceSingleton.swift; sourceTree = "<group>"; };
+		DA85BAAB24A4735400A408DF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				DA85BA8124A46F9C00A408DF /* Assets.xcassets */,
 				DA85BA8324A46F9C00A408DF /* LaunchScreen.storyboard */,
 				DA85BA8624A46F9D00A408DF /* Info.plist */,
+				DA85BAA824A4704700A408DF /* ServiceSingleton.swift */,
+				DA85BAAB24A4735400A408DF /* Model.swift */,
 			);
 			path = "11health Code Challenge";
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA85BAAC24A4735400A408DF /* Model.swift in Sources */,
 				DA85BA7D24A46F9600A408DF /* ViewController.swift in Sources */,
+				DA85BAA924A4704700A408DF /* ServiceSingleton.swift in Sources */,
 				DA85BA7924A46F9600A408DF /* AppDelegate.swift in Sources */,
 				DA85BA7B24A46F9600A408DF /* SceneDelegate.swift in Sources */,
 			);
